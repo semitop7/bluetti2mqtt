@@ -1,3 +1,7 @@
+## [1.4.2] - 2024-07-31
+
+- Init for version, bluetti_mqtt from https://github.com/semitop7/bluetti_mqtt based on version 0.15.0
+
 ## [1.4.1] - 2023-05-13
 
 - Bump bluetti_mqtt to version 0.15.0.
