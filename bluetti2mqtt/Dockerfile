@@ -4,6 +4,10 @@ FROM $BUILD_FROM
 # Copy data for add-on
 COPY rootfs /
 
+# Add edge repo that contains bluez 5.77-r0 version
+RUN echo 'https://dl-cdn.alpinelinux.org/alpine/edge/main' > /etc/apk/repositories && \
+    echo 'https://dl-cdn.alpinelinux.org/alpine/edge/community' >> /etc/apk/repositories
+
 # Install bluetti_mqtt
 RUN apk add --update --no-cache \
     		    bluez=5.77-r0 git \
