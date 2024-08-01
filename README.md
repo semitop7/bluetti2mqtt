@@ -1,6 +1,6 @@
-This fork uses github.com/semitop7/bluetti_mqtt.git which is a fork of https://github.com/semitop7/bluetti_mqtt which is a fork of https://github.com/GreyZmeem/bluetti_mqtt which is a fork of https://github.com/warhammerkid/bluetti_mqtt.
+This fork uses github.com/semitop7/bluetti_mqtt.git which is a fork of https://github.com/semitop7/bluetti_mqtt which is a fork of https://github.com/warhammerkid/bluetti_mqtt.
 
-The goal of these forks is to use 'aiomqtt' instead of 'asyncio-mqtt'
+The goal of these forks is to use 'aiomqtt' instead of 'asyncio-mqtt', update required libraries to latest versions
 
 # Bluetti2MQTT
 
