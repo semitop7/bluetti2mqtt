@@ -1,0 +1,31 @@
+configuration:
+  mqtt_username:
+    name: MQTT username
+    description: Ім'я користувача MQTT. Залиште поле порожнім, якщо ви використовуєте додаток Mosquitto broker.
+  mqtt_password:
+    name: MQTT password
+    description: Пароль MQTT. Залиште поле порожнім, якщо ви використовуєте додаток Mosquitto broker.
+  mqtt_host:
+    name: MQTT host
+    description: IP-адреса хоста MQTT. Залиште поле порожнім, якщо ви використовуєте додаток Mosquitto broker.
+  mqtt_port:
+    name: MQTT port
+    description: Порт MQTT. Залиште поле порожнім, якщо ви використовуєте додаток Mosquitto broker.
+  mode:
+    name: Program Mode
+    description: Режим програми (mqtt | discovery | logger). Дивіться документацію.
+  ha_config:
+    name: HA Config Level
+    description: Поля налаштовувань в Home Assistant – за замовчуванням для більшості полів ("normal").
+  bt_mac:
+    name: Address(es)
+    description: MAC-адреса(и) пристроїв Bluetti. Для декількох адрес розділяйте одним пробілом.
+  poll_sec:
+    name: Poll Interval
+    description: Інтервал опитування в секундах.
+  scan:
+    name: Scan
+    description: Сканувати пристрої під час запуску. Перевірте вкладку журналу для перегляду результатів.
+  debug:
+    name: Debug Mode
+    description: Увімкнути режим налагодження. Перевірте вкладку журналу для перегляду результатів.

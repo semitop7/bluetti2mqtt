@@ -1,3 +1,8 @@
+## [1.4.4] - 2024-09-08
+
+- Use bluetti_mqtt from https://github.com/semitop7/bluetti_mqtt based on version 0.15.3
+- Add Ukrainian translation 
+
 ## [1.4.3] - 2024-08-02
 
 - Use bluetti_mqtt from https://github.com/semitop7/bluetti_mqtt based on version 0.15.2
