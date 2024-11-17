@@ -1,3 +1,7 @@
+## [1.4.6] - 2024-11-17
+
+- Use bluez version 5.79-r0
+
 ## [1.4.5] - 2024-09-28
 
 - Use bluez version 5.78-r2 
