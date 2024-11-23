@@ -8,7 +8,7 @@ COPY rootfs /
 RUN echo 'https://dl-cdn.alpinelinux.org/alpine/edge/main' > /etc/apk/repositories && \
     echo 'https://dl-cdn.alpinelinux.org/alpine/edge/community' >> /etc/apk/repositories
 
-# Install bluetti_mqtt version 0.15.3
+# Install bluetti_mqtt version 0.15.4
 RUN apk add --update --no-cache \
     		    bluez=5.79-r0 git \
     && pip install git+https://github.com/semitop7/bluetti_mqtt.git \
