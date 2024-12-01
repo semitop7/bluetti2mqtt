@@ -1,3 +1,7 @@
+## [1.4.10] - 2024-12-01
+
+- Use bluetti_mqtt from https://github.com/semitop7/bluetti_mqtt based on version 0.15.7
+
 ## [1.4.9] - 2024-11-26
 
 - Use bluetti_mqtt from https://github.com/semitop7/bluetti_mqtt based on version 0.15.6
