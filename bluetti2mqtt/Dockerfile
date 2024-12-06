@@ -1,4 +1,5 @@
 ARG BUILD_FROM
+# ghcr.io/hassio-addons/base-python: 15.0.3 version
 FROM $BUILD_FROM
 
 # Copy data for add-on

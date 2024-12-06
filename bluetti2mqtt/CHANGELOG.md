@@ -1,14 +1,21 @@
+## [1.4.11] - 2024-12-06
+
+- Update image ghcr.io/hassio-addons/base-python to version 15.0.3
+
 ## [1.4.10] - 2024-12-01
 
 - Use bluetti_mqtt from https://github.com/semitop7/bluetti_mqtt based on version 0.15.7
+- Add AC200L, AC200PL support
 
 ## [1.4.9] - 2024-11-26
 
 - Use bluetti_mqtt from https://github.com/semitop7/bluetti_mqtt based on version 0.15.6
+- Update bleak to 0.22.3
 
 # [1.4.8] - 2024-11-26
 
 - Use bluetti_mqtt from https://github.com/semitop7/bluetti_mqtt based on version 0.15.5
+- Add AC70, AC70P, AC180P support
 
 ## [1.4.7] - 2024-11-23
 
