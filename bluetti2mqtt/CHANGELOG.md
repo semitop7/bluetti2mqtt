@@ -1,3 +1,10 @@
+## [1.4.12] - 2025-10-10
+
+- Use bluetti_mqtt from https://github.com/semitop7/bluetti_mqtt based on version 0.15.8
+- Update aiomqtt to 2.4.0, bleak to 1.1.1, crcmod to 1.7
+- Update image ghcr.io/hassio-addons/base-python to version 17.0.0
+- Use bluez version 5.84-r0
+
 ## [1.4.11] - 2024-12-06
 
 - Update image ghcr.io/hassio-addons/base-python to version 15.0.3
