@@ -1,6 +1,6 @@
 ---
 name: Bluetti to MQTT
-version: 2.0.0
+version: 2.0.1
 slug: bluetti2mqttFork
 description: MQTT bridge between Bluetti and Home Assistant
 url: https://github.com/semitop7/bluetti2mqtt

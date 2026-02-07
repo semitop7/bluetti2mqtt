@@ -1,3 +1,7 @@
+## [2.0.1] - 2026-02-07
+
+- Use bluetti_mqtt from https://github.com/semitop7/bluetti_mqtt based on version 0.16.0
+
 ## [2.0.0] - 2026-02-07
 
 - Remove deprecated armv7, armhf, i386 architectures
