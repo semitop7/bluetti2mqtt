@@ -63,7 +63,7 @@ jobs:
     name: Build ${{ matrix.arch }} ${{ matrix.addon }} add-on
     strategy:
       matrix:
-        addon: ${{ fromJson(needs.init.outputs.changed_addons) }}
+        addon: ${{ fromJson(needs.init.outputs.changed_addons || '[]') }}
         arch: ["aarch64", "amd64", "armhf", "armv7", "i386"]
 
     steps:
