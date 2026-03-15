@@ -11,7 +11,7 @@ RUN echo 'https://dl-cdn.alpinelinux.org/alpine/edge/main' > /etc/apk/repositori
 
 # Install fork bluetti_mqtt version 0.16.0
 RUN apk add --update --no-cache \
-    		    bluez=5.85-r1 git \
+    		    bluez=5.86-r0 git \
     && pip install git+https://github.com/semitop7/bluetti_mqtt.git \
 	&& rm -rf /var/cache/apk/* /lib/apk/db/* \
 	&& chmod a+x /run.sh
