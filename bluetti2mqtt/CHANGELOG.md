@@ -1,3 +1,6 @@
+## [2.0.4] - 2026-03-16
+- Remove not used bluez from addon container
+
 ## [2.0.3] - 2026-03-16
 - Use bluetti_mqtt from https://github.com/semitop7/bluetti_mqtt based on version 0.16.1
 
